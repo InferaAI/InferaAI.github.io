@@ -3578,8 +3578,20 @@ fieldset:disabled .btn {
     background-color: transparent;
 }
 
-.dropdown-menu.show {
+/* .dropdown-menu.show {
     display: block;
+} */
+
+.btn-group:hover .dropdown-menu {
+    display: block;
+    margin-top: 16px;
+}
+
+@media (min-width: 992px) {
+    .btn-group:hover .dropdown-menu {
+        display: block;
+        margin-top: 36px;
+    }
 }
 
 .dropdown-header {
